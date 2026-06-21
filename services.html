@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Shubham Logistics Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-truck"></i> Shubham Logistics
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Contact Widget -->
+    <div class="floating-contact">
+        <button class="contact-btn" id="contactBtn">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="contact-menu" id="contactMenu" style="display: none;">
+            <a href="https://wa.me/919849169890" target="_blank" class="contact-option whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="tel:+919849169890" class="contact-option phone">
+                <i class="fas fa-phone"></i> Call
+            </a>
+            <a href="mailto:vinod@shubhamlogistic.com" class="contact-option email">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero-section bg-primary text-white py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Our Services</h1>
+            <p class="fs-5 mt-3">Comprehensive logistics solutions tailored to your needs</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-primary">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h4 class="mt-3">Export & Import Consignments</h4>
+                        <p class="text-muted">Professional handling of international export and import shipments with complete documentation and customs clearance support.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Door-to-door delivery</li>
+                            <li><i class="fas fa-check text-success"></i> Customs documentation</li>
+                            <li><i class="fas fa-check text-success"></i> Port coordination</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-success">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h4 class="mt-3">Transportation of Bulk Cargo</h4>
+                        <p class="text-muted">Efficient and cost-effective bulk cargo transportation with specialized vehicles and loading equipment.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Large volume handling</li>
+                            <li><i class="fas fa-check text-success"></i> Equipment support</li>
+                            <li><i class="fas fa-check text-success"></i> Real-time tracking</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-info">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h4 class="mt-3">Over Dimensional Cargo (ODC)</h4>
+                        <p class="text-muted">Specialized transportation for oversized and overweight cargo requiring special permits and equipment.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Special permits</li>
+                            <li><i class="fas fa-check text-success"></i> Specialized equipment</li>
+                            <li><i class="fas fa-check text-success"></i> Expert handling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-warning">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4 class="mt-3">Project Cargo</h4>
+                        <p class="text-muted">Complete project cargo management from planning to final delivery with dedicated coordination team.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Project planning</li>
+                            <li><i class="fas fa-check text-success"></i> Dedicated team</li>
+                            <li><i class="fas fa-check text-success"></i> End-to-end coordination</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-danger">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h4 class="mt-3">Steel Coils, Bars & Pallets</h4>
+                        <p class="text-muted">Specialized transportation for steel products with secure loading and weather protection.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Secure loading</li>
+                            <li><i class="fas fa-check text-success"></i> Weather protection</li>
+                            <li><i class="fas fa-check text-success"></i> Damage prevention</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card-detailed">
+                        <div class="service-card-icon bg-secondary">
+                            <i class="fas fa-radiation"></i>
+                        </div>
+                        <h4 class="mt-3">Hazardous Containers</h4>
+                        <p class="text-muted">Expert handling of hazardous materials with complete safety compliance and proper certification.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check text-success"></i> Safety certified</li>
+                            <li><i class="fas fa-check text-success"></i> Full compliance</li>
+                            <li><i class="fas fa-check text-success"></i> Expert drivers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Vehicles Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-5 fw-bold">Special Vehicles</h2>
+                    <p class="text-muted fs-5 mt-3">Equipment and vehicles for specialized cargo handling</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="vehicle-card">
+                        <div class="vehicle-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h5>Air Suspension Trailers</h5>
+                        <p class="text-muted">Smooth ride for sensitive cargo with advanced suspension systems.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="vehicle-card">
+                        <div class="vehicle-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h5>Reefer Containers</h5>
+                        <p class="text-muted">Temperature-controlled transport for perishable goods.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="vehicle-card">
+                        <div class="vehicle-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h5>High Cube Containers</h5>
+                        <p class="text-muted">Extra capacity containers for maximum volume cargo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="vehicle-card">
+                        <div class="vehicle-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h5>Dual Genset Vehicles</h5>
+                        <p class="text-muted">For 20' & 40' containers with backup power systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-5 fw-bold">Why Our Services Stand Out</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-satellite"></i>
+                        <h5>Live GPS Tracking</h5>
+                        <p class="text-muted">Real-time tracking of your shipment with secure online access portal.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-camera"></i>
+                        <h5>Proof of Delivery</h5>
+                        <p class="text-muted">Photo documentation of delivery for complete transparency.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-shield-alt"></i>
+                        <h5>Insured Shipments</h5>
+                        <p class="text-muted">Comprehensive insurance coverage for all shipments.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-bell"></i>
+                        <h5>SMS/Email Alerts</h5>
+                        <p class="text-muted">Instant notifications at each stage of transit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-clock"></i>
+                        <h5>Estimated Delivery Time</h5>
+                        <p class="text-muted">Accurate time estimates with consistent on-time delivery.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item-service">
+                        <i class="fas fa-credit-card"></i>
+                        <h5>Multiple Payment Options</h5>
+                        <p class="text-muted">Flexible payment methods tailored to your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section bg-primary text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="display-6 fw-bold mb-3">Need a Custom Solution?</h2>
+                    <p class="fs-5 mb-0">Contact our team for specialized logistics requirements.</p>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-lg-end">
+                    <a href="contact.html" class="btn btn-light btn-lg">Request Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">About Company</h6>
+                    <p class="text-muted">Shubham Logistics Services - Your trusted partner in freight management for over 20 years.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Services</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="text-muted mb-2"><i class="fas fa-phone"></i> +91 98491 69890</p>
+                    <p class="text-muted mb-2"><i class="fas fa-phone"></i> +91 93246 44543</p>
+                    <p class="text-muted mb-2"><i class="fas fa-envelope"></i> vinod@shubhamlogistic.com</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Hours</h6>
+                    <p class="text-muted mb-2">Mon to Fri: 9:00 AM - 9:00 PM</p>
+                    <p class="text-muted mb-2">Saturday: 9:00 AM - 5:00 PM</p>
+                    <p class="text-muted mb-2">Sunday: Closed</p>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <p class="text-muted mb-0">&copy; 2024 Shubham Logistics Services. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
